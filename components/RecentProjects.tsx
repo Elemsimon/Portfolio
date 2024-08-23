@@ -7,6 +7,7 @@ import { projects } from "@/data";
 
 import { PinContainer } from "./ui/Pin";
 
+
 const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
@@ -17,7 +18,7 @@ const RecentProjects = () => {
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {projects.map((item) => (
           <div
-            className="sm:h-[41rem] h-[28rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[450px] lg:w-[480px] w-[80vw]"
+            className="sm:h-[41rem] h-[28rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[450px] lg:w-[480px] xl:w-[550px] w-[80vw]"
             key={item.id}
           >
             <PinContainer
@@ -54,19 +55,6 @@ const RecentProjects = () => {
               </p>
 
               <div className="flex items-center justify-between mt-7 mb-3">
-                {/* <div className="flex items-center">
-                  {item.iconLists.map((icon, index) => (
-                    <div
-                      key={index}
-                      className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
-                      style={{
-                        transform: `translateX(-${5 * index + 2}px)`,
-                      }}
-                    >
-                      <img src={icon} alt="icon5" className="p-2" />
-                    </div>
-                  ))}
-                </div> */}
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
