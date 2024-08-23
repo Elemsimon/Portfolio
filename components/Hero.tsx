@@ -60,9 +60,9 @@ const Hero = () => {
             Hi! I&apos;m Simon, a Frontend Developer based
           </p>
 
-          <a href="#about">
+          <a href="/about" className="mt-14">
             <MagicButton
-              title="Show my work"
+              title="About Me"
               icon={<FaLocationArrow />}
               position="right"
             />
