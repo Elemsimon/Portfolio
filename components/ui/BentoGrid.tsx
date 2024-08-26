@@ -12,6 +12,7 @@ import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
 
+
 export const BentoGrid = ({
   className,
   children,
@@ -52,8 +53,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["Express", "ReactJS", "Typescript"];
-  const rightLists = ["NextJS", "Wordpress", "GraphQL"];
+  const leftLists = ["Tailwind CSS", "ReactJS", "Typescript"];
+  const rightLists = ["NextJS", "Wordpress", "API integration"];
 
   const [copied, setCopied] = useState(false);
 
@@ -67,7 +68,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "elemifesinachisimon@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
