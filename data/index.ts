@@ -73,7 +73,7 @@ export const projects = [
   {
     id: 1,
     title: "Living Christ Mission",
-    des: "Explore the wonders osleek and responsive website with a focus on user experience and accessibility. ",
+    des: "Explore the wonders of a sleek and responsive website with a focus on user experience and accessibility. ",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://livingchristmission.org",
