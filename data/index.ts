@@ -78,16 +78,16 @@ export const projects = [
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://livingchristmission.org",
   },
-  {
+/*   {
     id: 2,
     title: "CCW Electronics",
     des: "Experience a sophisticated e-commerce platform with seamless navigation and secure transactions, enhancing user experience and driving sales.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://ccwelectronics.com",
-  },
+  }, */
   {
-    id: 3,
+    id: 2,
     title: "Phis3project",
     des: "Experience a dynamic website crafted for intuitive navigation and a visually appealing design. Seamlessly engage users with robust functionalities that enhance interaction and drive conversion.",
     img: "/p3.svg",
@@ -95,7 +95,7 @@ export const projects = [
     link: "https://www.phis3project.org.ng/",
   },
   {
-    id: 4,
+    id: 3,
     title: "Furnishop",
     des: "The Furnishop project was an exciting venture where I combined modern design with cutting-edge technology to craft a sleek and engaging landing page for a contemporary furniture store.",
     img: "/p4.svg",
@@ -249,7 +249,7 @@ export const productDetails = [
     link:"https://livingchristmission.org/",
   },
 
-  {
+ /*  {
     id: 2,
     title: "CCW Electronics",
     desc1: "The CCW Electronics project was an exciting opportunity to create a state-of-the-art e-commerce platform tailored to the needs of tech enthusiasts and gadget lovers. My role was to engineer a sophisticated website that not only showcased a wide range of products but also provided a seamless and secure shopping experience.",
@@ -283,10 +283,10 @@ export const productDetails = [
     desc3:"The ccwelectronics website now stands as a robust e-commerce platform that seamlessly combines sophisticated design with powerful functionality. Enhanced user experience, secure transactions, and optimized conversion rates have driven customer satisfaction and sales growth. This project showcases my ability to deliver high-quality, user-centric e-commerce solutions that meet and exceed client expectations.",
     thumbnail: "/ccw.png",
     link:"https://ccwelectronics.com/",
-  },
+  }, */
 
   {
-    id: 3,
+    id: 2,
     title: "Phis3project",
     desc1: "The Phis3project website was an exciting endeavor where creativity and functionality met to create a vibrant online presence. My mission was to craft a dynamic website that not only looked visually stunning but also offered an intuitive and engaging user experience.",
     desc2: [{
@@ -318,7 +318,7 @@ export const productDetails = [
   },
 
   {
-    id: 4,
+    id: 3,
     title: "Furnishop",
     desc1: "The Furnishop project was an exciting venture where I had the opportunity to merge modern design with cutting-edge technology to create a stunning online presence for a contemporary furniture store. The goal was to design and develop a website that not only showcased the beautiful furniture pieces but also provided a seamless and enjoyable user experience.",
     desc2: [{
@@ -437,16 +437,16 @@ export const imageSlider = [
     id:1,
     image:'/lcm.png',
   },
-  {
+/*   {
     id:2,
     image:'/ccw.png',
-  },
+  }, */
   {
-    id:3,
+    id:2,
     image:'/phis3project.png',
   },
   {
-    id:4,
+    id:3,
     image:'/funishop.png',
   }
   
