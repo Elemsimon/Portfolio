@@ -73,35 +73,27 @@ export const projects = [
   {
     id: 1,
     title: "Living Christ Mission",
-    des: "Explore the wonders of a sleek and responsive website with a focus on user experience and accessibility. ",
+    des: "Sleek and responsive website with focus on user experience and accessibility.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://livingchristmission.org",
   },
   {
     id: 2,
-    title: "CCW Electronics",
-    des: "Experience a sophisticated e-commerce platform with seamless navigation and secure transactions, enhancing user experience and driving sales.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://ccwelectronics.com",
-  },
-  {
-    id: 3,
     title: "Phis3project",
-    des: "Experience a dynamic website crafted for intuitive navigation and a visually appealing design. Seamlessly engage users with robust functionalities that enhance interaction and drive conversion.",
+    des: "Dynamic website with intuitive navigation and visually appealing design.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://www.phis3project.org.ng/",
   },
-  {
-    id: 4,
+  /* {
+    id: 3,
     title: "Furnishop",
-    des: "The Furnishop project was an exciting venture where I combined modern design with cutting-edge technology to craft a sleek and engaging landing page for a contemporary furniture store.",
+    des: "Modern furniture store landing page combining sleek design with cutting-edge technology.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://funiture-app.netlify.app/",
-  },
+  }, */
 ];
 
 export const testimonials = [
