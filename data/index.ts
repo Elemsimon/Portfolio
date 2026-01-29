@@ -148,20 +148,27 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Wordpress Developer - MacSamuel Foundation",
-    desc: "Assisted in the development of a web-based platform using WordPress, enhancing interactivity.",
+    title: "Front-end Developer - Ecomleads",
+    desc: "Delivered scalable, SEO-friendly React.js architecture to improve speed, discoverability, and developer efficiency.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
+    title: "Wordpress Developer - MacSamuel Foundation",
+    desc: "Assisted in the development of a web-based platform using WordPress, enhancing interactivity.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  }, 
+  {
+    id: 3,
     title: "Front-end Developer - Webastry Designs",
     desc: "Revamped customers websites, focusing on optimizing search engine performance and visibility.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
-    id: 3,
+    id: 4,
     title: "Software Engineer - Utilify Networks",
     desc: "I worked diligently on identifying and fixing bugs, which led to a 10% increase in user satisfaction.",
     className: "md:col-span-2",
