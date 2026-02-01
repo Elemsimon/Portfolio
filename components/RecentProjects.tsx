@@ -22,7 +22,7 @@ const RecentProjects = () => {
             className="sm:h-[41rem] h-[28rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[450px] lg:w-[350px] w-[80vw]"
             key={item.id}
           >
-            <Link href={`${item.link}`}>
+            <Link href={`${item.link}`} target="_blank" rel="noopener noreferrer">
                 <PinContainer
                 title={item.title}
                 href={`/projects/${item.link}`}
