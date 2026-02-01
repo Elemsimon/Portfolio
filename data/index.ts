@@ -72,21 +72,21 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Living Christ Mission",
-    des: "Sleek and responsive website with focus on user experience and accessibility.",
-    img: "/p1.svg",
+    title: "Mojito",
+    des: "Sleek and stunning animated website with focus on user experience",
+    img: "/p1.webp",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://livingchristmission.org",
+    link: "https://cocktail-mocha.vercel.app/",
   },
   {
     id: 2,
     title: "Phis3project",
     des: "Dynamic website with intuitive navigation and visually appealing design.",
-    img: "/p3.svg",
+    img: "/p2.webp",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://www.phis3project.org.ng/",
   },
-  /* {
+/*   {
     id: 3,
     title: "Furnishop",
     des: "Modern furniture store landing page combining sleek design with cutting-edge technology.",

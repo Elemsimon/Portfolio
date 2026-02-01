@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { projects } from "@/data";
 
 import { PinContainer } from "./ui/Pin";
+import Image from "next/image";
 
 
 const RecentProjects = () => {
@@ -21,25 +22,29 @@ const RecentProjects = () => {
             className="sm:h-[41rem] h-[28rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[450px] lg:w-[350px] w-[80vw]"
             key={item.id}
           >
-            <PinContainer
-              title={item.title}
-              href={`/projects/${item.id}`}
-            >
-              <div className="relative flex items-center justify-center sm:w-[500px] lg:w-[400px] w-[80vw] overflow-hidden sm:h-[45vh] lg:h-[30vh] h-[32vh] mb-5">
-                <div
-                  className="relative w-full h-full overflow-hidden lg:rounded-xl"
-                  style={{ backgroundColor: "#13162D" }}
+            <Link href={`${item.link}`}>
+                <PinContainer
+                title={item.title}
+                href={`/projects/${item.link}`}
                 >
-                  <img src="/bg.png" alt="bgimg" />
-                </div>
-                <img
-                  src={item.img}
-                  alt="cover"
-                  className="z-10 absolute -bottom-10 object-contain"
-                />
-              </div>
-
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+           
+            
+           <div className="relative flex items-center justify-center sm:w-[500px] lg:w-[400px] w-[80vw] overflow-hidden sm:h-[45vh] lg:h-[25vh] h-[32vh] mb-5">
+                            {/* <div
+                              className="relative w-full h-full overflow-hidden lg:rounded-xl"
+                              style={{ backgroundColor: "#13162D" }}
+                            >
+                              <Image src="/bg.png" alt="bgimg" fill className="object-cover" />
+                            </div> */}
+                            <Image
+                              src={item.img}
+                              alt="cover"
+                              fill
+                              className="z-10 absolute -bottom-10 object-cover rounded-t-xl"
+                            />
+                          </div>
+                <div className="px-4 pb-4">
+                    <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                 {item.title}
               </h1>
 
@@ -69,7 +74,10 @@ const RecentProjects = () => {
                   </Link>
                 </div>
               </div>
+                </div>
+              
             </PinContainer>
+             </Link>
           </div>
         ))}
       </div>
