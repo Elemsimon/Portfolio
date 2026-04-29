@@ -16,10 +16,10 @@ const RecentProjects = () => {
         
         <span className="text-purple">Recent projects</span>
       </h1>
-      <div className="flex flex-wrap px-2 justify-evenly gap-y-2 mt-10">
+      <div className="flex flex-wrap px-2 justify-evenly gap-10 mt-10">
         {projects.map((item) => (
           <div
-            className="sm:h-[41rem] h-[28rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[450px] lg:w-[350px] w-[80vw]"
+            className="flex items-center justify-center sm:w-[450px] lg:w-[350px] w-[80vw] py-10"
             key={item.id}
           >
             <Link href={`${item.link}`} target="_blank" rel="noopener noreferrer">
@@ -29,7 +29,7 @@ const RecentProjects = () => {
                 >
            
             
-           <div className="relative flex items-center justify-center sm:w-[500px] lg:w-[400px] w-[80vw] overflow-hidden sm:h-[45vh] lg:h-[25vh] h-[32vh] mb-5">
+           <div className="relative flex items-center justify-center sm:w-[500px] lg:w-[350px] w-[80vw] overflow-hidden sm:h-[45vh] lg:h-[25vh] h-[32vh] mb-5">
                             {/* <div
                               className="relative w-full h-full overflow-hidden lg:rounded-xl"
                               style={{ backgroundColor: "#13162D" }}
@@ -49,7 +49,7 @@ const RecentProjects = () => {
               </h1>
 
               <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                className="lg:text-base lg:font-normal font-light text-sm"
                 style={{
                   color: "#BEC1DD",
                   margin: "1vh 0",
@@ -66,13 +66,26 @@ const RecentProjects = () => {
                     </p>
                     <FaLocationArrow className="ms-3" color="#CBACF9" />
                   </Link> */}
-                  <Link href={item.link} target="_blank" rel="noopener noreferrer" className="flex items-center ml-4">
+                  <Link href={item.link} target="_blank" rel="noopener noreferrer" className="flex items-center ml-0">
                     <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                       Explore site
                     </p>
                     <FaLocationArrow className="ms-3" color="#CBACF9" />
                   </Link>
                 </div>
+                <div className="flex gap-3">
+                  {item.iconLists.map((item, index) => (
+                  <Image
+                    key={index}
+                    src={item}
+                    alt="icons"
+                    width={20}
+                    height={20} 
+                    className="object-cover"
+                  />
+                ))}
+                </div>
+                
               </div>
                 </div>
               

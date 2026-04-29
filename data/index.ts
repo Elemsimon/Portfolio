@@ -73,18 +73,34 @@ export const projects = [
   {
     id: 1,
     title: "Mojito",
-    des: "Sleek and stunning animated website with focus on user experience",
+    des: "A stylish cocktail-themed website featuring smooth animations, engaging visuals, and responsive frontend design.",
     img: "/p1.webp",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/re.svg", "/tail.svg"],
     link: "https://cocktail-mocha.vercel.app/",
   },
-  {
+/*   {
     id: 2,
     title: "Phis3project",
     des: "Dynamic website with intuitive navigation and visually appealing design.",
     img: "/p2.webp",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://www.phis3project.org.ng/",
+  }, */
+  {
+    id: 2,
+    title: "MacBook Pro",
+    des: "A modern MacBook-inspired landing page showcasing responsive design, clean layouts, and interactive frontend development.",
+    img: "/p5.png",
+    iconLists: ["/re.svg", "/tail.svg"],
+    link: "https://www.phis3project.org.ng/",
+  },
+  {
+    id: 3,
+    title: "Toothly",
+    des: "A modern dental clinic website focused on clean UI, responsive design, and professional healthcare presentation.",
+    img: "/p6.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://toothlypro.netlify.app/",
   },
 /*   {
     id: 3,
