@@ -16,7 +16,7 @@ const RecentProjects = () => {
         
         <span className="text-purple">Recent projects</span>
       </h1>
-      <div className="flex flex-wrap px-2 justify-evenly gap-10 mt-10">
+      <div className="flex flex-wrap px-2 justify-evenly md:gap-10 gap-10 mt-10">
         {projects.map((item) => (
           <div
             className="flex items-center justify-center sm:w-[450px] lg:w-[350px] w-[80vw] py-10"
