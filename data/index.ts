@@ -199,7 +199,7 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
-    link: "linkedin.com/in/simon-elem",
+    link: "https://linkedin.com/in/simon-elem",
   },
 ];
 
