@@ -72,22 +72,23 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "AI Architectural Visualization",
+    des: "AI-powered architectural visualization SaaS built using AI models from Claude to Gemini to transform 2D floor plans into photorealistic 3D renders.",
+    img: "/p7.png",
+    iconLists: ["/re.svg", "/ts.svg", "/tail.svg"],
+    link: "https://roomifyyyy.vercel.app/",
+    stack: ["React.js", "TypeScript", "Tailwind CSS", "AI"],
+  },
+  {
+    id: 2,
     title: "Mojito",
     des: "A stylish cocktail-themed website featuring smooth animations, engaging visuals, and responsive frontend design.",
     img: "/p1.webp",
     iconLists: ["/re.svg", "/tail.svg"],
     link: "https://cocktail-mocha.vercel.app/",
   },
-/*   {
-    id: 2,
-    title: "Phis3project",
-    des: "Dynamic website with intuitive navigation and visually appealing design.",
-    img: "/p2.webp",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://www.phis3project.org.ng/",
-  }, */
   {
-    id: 2,
+    id: 3,
     title: "MacBook Pro",
     des: "A modern MacBook-inspired landing page showcasing responsive design, clean layouts, and interactive frontend development.",
     img: "/p5.png",
@@ -95,21 +96,13 @@ export const projects = [
     link: "https://www.phis3project.org.ng/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Toothly",
     des: "A modern dental clinic website focused on clean UI, responsive design, and professional healthcare presentation.",
     img: "/p6.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://toothlypro.netlify.app/",
   },
-/*   {
-    id: 3,
-    title: "Furnishop",
-    des: "Modern furniture store landing page combining sleek design with cutting-edge technology.",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://funiture-app.netlify.app/",
-  }, */
 ];
 
 export const testimonials = [
