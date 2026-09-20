@@ -57,7 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Simon, a Frontend Developer based
+            Hi! I&apos;m Simon, a Frontend Engineer 
           </p>
 
           <a href="/about" className="mt-14">
