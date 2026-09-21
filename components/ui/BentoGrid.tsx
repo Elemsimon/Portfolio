@@ -3,13 +3,17 @@
 import { useState } from "react";
 import dynamic from "next/dynamic";
 import { IoCopyOutline } from "react-icons/io5";
+import type { LottieProps } from "lottie-react";
 
 import { cn } from "@/lib/utils";
 
-const Lottie = dynamic(() => import("lottie-react"), {
+const Lottie = dynamic<LottieProps>(
+  () => import("lottie-react").then((module) => module.Lottie),
+  {
   ssr: false,
   loading: () => null,
-});
+  }
+);
 
 
 import { BackgroundGradientAnimation } from "./GradientBg";
@@ -187,12 +191,11 @@ export const BentoGridItem = ({
               >
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
                 <Lottie
-                  animationData={defaultOptions.animationData}
-                  loop={defaultOptions.loop}
+                  src={defaultOptions.animationData}
+                  loop={false}
                   autoplay={defaultOptions.autoplay}
                   rendererSettings={defaultOptions.rendererSettings}
-                  height={200}
-                  width={400}
+                  className="h-[200px] w-[400px]"
                 />
               </div>
 

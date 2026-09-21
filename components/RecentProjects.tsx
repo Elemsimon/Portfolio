@@ -22,10 +22,9 @@ const RecentProjects = () => {
             className="flex items-center justify-center w-full sm:w-[450px] md:w-[350px] py-10"
             key={item.id}
           >
-            <Link href={`${item.link}`} target="_blank" rel="noopener noreferrer">
-                <PinContainer
+            <PinContainer
                 title={item.title}
-                href={`/projects/${item.link}`}
+              href={item.link}
                 >
            
             
@@ -40,6 +39,7 @@ const RecentProjects = () => {
                               src={item.img}
                               alt="cover"
                               fill
+                              sizes="(max-width: 640px) 80vw, (max-width: 1024px) 350px, 500px"
                               className="z-10 absolute inset-0 object-cover rounded-t-xl"
                             />
                           </div>
@@ -89,8 +89,7 @@ const RecentProjects = () => {
               </div>
                 </div>
               
-            </PinContainer>
-             </Link>
+          </PinContainer>
           </div>
         ))}
       </div>
