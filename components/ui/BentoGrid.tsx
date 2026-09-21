@@ -6,7 +6,7 @@ import { IoCopyOutline } from "react-icons/io5";
 
 import { cn } from "@/lib/utils";
 
-const Lottie = dynamic(() => import("react-lottie"), {
+const Lottie = dynamic(() => import("lottie-react"), {
   ssr: false,
   loading: () => null,
 });
@@ -186,7 +186,14 @@ export const BentoGridItem = ({
                   }`}
               >
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
-                <Lottie options={defaultOptions} height={200} width={400} />
+                <Lottie
+                  animationData={defaultOptions.animationData}
+                  loop={defaultOptions.loop}
+                  autoplay={defaultOptions.autoplay}
+                  rendererSettings={defaultOptions.rendererSettings}
+                  height={200}
+                  width={400}
+                />
               </div>
 
               <MagicButton
